@@ -40,7 +40,7 @@ export const personalData: PersonalInfo = {
   ],
   email: "md2023siyam@gmail.com",
   phone: "+880 18756-30734",
-  location: "DHAKA, BANGLADESH",
+  location: "CHATTOGRAM, BANGLADESH",
   resumeUrl: "/Nurul_Alam_Resume.pdf",
   socials: [
     { name: "GITHUB", label: "GITHUB", url: "https://github.com/NurulAlam0" },
