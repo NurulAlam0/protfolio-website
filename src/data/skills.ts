@@ -21,7 +21,7 @@ export const skillGroupsData: SkillGroup[] = [
   },
   {
     title: "Database",
-    skills: ["MongoDB", "Mongoose", "Redis"]
+    skills: ["MongoDB", "Mongoose"]
   },
   {
     title: "Version Control & Tools",

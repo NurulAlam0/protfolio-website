@@ -14,8 +14,8 @@ export const projectsData: Project[] = [
     id: "01",
     year: "2026",
     title: "FitLog – Workout Tracker",
-    description: "A modern fitness app to plan workouts, track sets, and monitor progress..",
-    tags: ["REACT", "MONGODB", "TAILWIND CSS","TYPESCRIPT"],
+    description: "A modern fitness app to plan workouts, track sets, and monitor progress.",
+    tags: ["NEXT.JS", "TYPESCRIPT", "TAILWIND CSS"],
     image: "/projects/fitlog.png",
     githubUrl: "https://github.com/NurulAlam0/fitlog-app",
     liveUrl: "https://fitlog-app-livid.vercel.app/"
@@ -45,7 +45,7 @@ export const projectsData: Project[] = [
     year: "2026",
     title: "DevStack – Technology Stack Builder",
     description: "A web app for exploring, comparing, and building custom technology stacks.",
-    tags: ["REACT","TALIWIND CSS" , "TYPESCRIPT"],
+    tags: ["REACT","TAILWIND CSS" , "TYPESCRIPT"],
     image: "/projects/dev stack.png",
     githubUrl: "https://github.com/NurulAlam0/dev-stack",
     liveUrl: "https://devstack-hub.netlify.app/"

@@ -24,21 +24,19 @@ export const personalData: PersonalInfo = {
   badge: "NURUL ALAM · FULL-STACK DEVELOPER",
   headline: "Building modern products with the MERN stack.",
   subheadline:
-    "Engineering robust, high-performance web applications, responsive user interfaces, and scalable microservices. Driven by editorial precision, performance, and pragmatic design.",
+    "I build fast, responsive web applications with React, Next.js, Node.js and MongoDB — including a live price tracker for Bangladesh markets, a Bangla news portal, and a workout tracker. Driven by clean design, performance, and pragmatic engineering.",
   aboutP1:
-    "I am a full-stack engineer focused on creating fast, resilient software with modern web technologies. Bridging the gap between complex backend architecture and nuanced, interactive front-ends, I believe great software should feel effortless, look razor-sharp, and scale without friction.",
+    "I am a junior full-stack web developer focused on creating fast, reliable software with modern web technologies. Bridging the gap between backend architecture and interactive front-ends, I believe great software should feel effortless, look sharp, and work without friction.",
   aboutP2:
-    "From distributed databases and real-time streaming engines to micro-interactions and design systems, I turn ambitious concepts into battle-tested digital experiences.",
+    "From REST APIs and authentication to responsive interfaces and design details, I turn ideas into working products — like Bazar Dor, a daily market price tracker for Bangladesh, Bangla News 24, and FitLog, all live and linked in the Work section below.",
   dailyStack: [
     "REACT",
+    "NEXT.JS",
     "NODE.JS",
     "EXPRESS",
     "MONGODB",
     "TYPESCRIPT",
-    "TAILWIND CSS",
-    "NEXT.JS",
-    "REDIS",
-    "DOCKER"
+    "TAILWIND CSS"
   ],
   email: "md2023siyam@gmail.com",
   phone: "+880 18756-30734",
@@ -47,6 +45,7 @@ export const personalData: PersonalInfo = {
   socials: [
     { name: "GITHUB", label: "GITHUB", url: "https://github.com/NurulAlam0" },
     { name: "LINKEDIN", label: "LINKEDIN", url: "https://www.linkedin.com/in/siyam-dev/" },
+    { name: "FIVERR", label: "FIVERR", url: "https://www.fiverr.com/mdsiyam866" },
     { name: "EMAIL", label: "EMAIL", url: "mailto:md2023siyam@gmail.com" },
     { name: "WORK", label: "WORK", url: "/work" }
   ]
