@@ -1,11 +1,11 @@
 import React from "react";
-import { BriefcaseBusiness, Code2, Mail } from "lucide-react";
+import { BriefcaseBusiness, Code2, Mail, Store } from "lucide-react";
 import { personalData } from "../data/personal";
 
 const currentYear = new Date().getFullYear();
 
 const socialLinks = personalData.socials.filter((social) =>
-  ["GITHUB", "LINKEDIN", "EMAIL"].includes(social.name)
+  ["GITHUB", "LINKEDIN", "FIVERR", "EMAIL"].includes(social.name)
 );
 
 export const Footer: React.FC = () => {
@@ -34,7 +34,9 @@ export const Footer: React.FC = () => {
                     ? Code2
                     : social.name === "LINKEDIN"
                       ? BriefcaseBusiness
-                      : Mail;
+                      : social.name === "FIVERR"
+                        ? Store
+                        : Mail;
 
                 return (
                   <a

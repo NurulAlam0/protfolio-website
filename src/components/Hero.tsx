@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
             {...anim(0.2)}
             className="font-serif text-[#141312] dark:text-[#EDE9E0] text-[48px] sm:text-[72px] md:text-[88px] lg:text-[96px] xl:text-[108px] leading-[0.93] tracking-[-0.02em] font-normal mb-8 selection:bg-[#D6FF4D] selection:text-[#121110] transition-colors"
           >
-            AI-Driven Full Stack Web Engineer
+            Junior Full-Stack Web Developer
           </motion.h1>
 
           {/* Muted Paragraph */}

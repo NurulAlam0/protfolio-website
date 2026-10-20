@@ -28,7 +28,7 @@ export const About: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="font-serif text-[42px] sm:text-[54px] md:text-[64px] text-[#141312] dark:text-[#EDE9E0] leading-[1.05] mb-10 md:mb-14 tracking-tight transition-colors max-w-4xl"
         >
-          AI-driven engineering, built for the web.
+          Full-stack development, built for the web.
         </motion.h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-stretch">
