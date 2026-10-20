@@ -26,7 +26,7 @@ export const personalData: PersonalInfo = {
   subheadline:
     "I build fast, responsive web applications with React, Next.js, Node.js and MongoDB — including a live price tracker for Bangladesh markets, a Bangla news portal, and a workout tracker. Driven by clean design, performance, and pragmatic engineering.",
   aboutP1:
-    "I am a junior full-stack web developer focused on creating fast, reliable software with modern web technologies. Bridging the gap between backend architecture and interactive front-ends, I believe great software should feel effortless, look sharp, and work without friction.",
+    "I am a junior full-stack web developer focused on creating fast, reliable software with modern web technologies. My workflow is AI-driven — I build alongside AI tools and agentic assistants to prototype faster, solve problems smarter, and ship polished products with care. Bridging the gap between backend architecture and interactive front-ends, I believe great software should feel effortless, look sharp, and work without friction.",
   aboutP2:
     "From REST APIs and authentication to responsive interfaces and design details, I turn ideas into working products — like Bazar Dor, a daily market price tracker for Bangladesh, Bangla News 24, and FitLog, all live and linked in the Work section below.",
   dailyStack: [
