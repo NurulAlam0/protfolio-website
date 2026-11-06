@@ -6,6 +6,7 @@ export interface Project {
   tags: string[];
   image: string;
   githubUrl: string;
+  serverGithubUrl?: string;
   liveUrl: string;
 }
 
@@ -18,6 +19,7 @@ export const projectsData: Project[] = [
     tags: ["NEXT.JS", "TYPESCRIPT", "NODE.JS", "MONGODB", "TAILWIND CSS"],
     image: "/projects/unitycare.png",
     githubUrl: "https://github.com/NurulAlam0/UnityCare-Client",
+    serverGithubUrl: "https://github.com/NurulAlam0/UnityCare-Server",
     liveUrl: "https://unity-care-client.vercel.app/"
   },
   {
