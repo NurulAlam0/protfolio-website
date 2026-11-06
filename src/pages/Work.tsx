@@ -104,15 +104,36 @@ export const Work: React.FC = () => {
                     {project.tags.join("  ·  ")}
                   </div>
 
-                  <div className="mt-5 flex items-center gap-4">
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.15em] uppercase text-[#646059] dark:text-[#8d8a82] border border-black/10 dark:border-white/10 hover:border-[#7A9E00]/50 dark:hover:border-[#D6FF4D]/50 hover:text-[#7A9E00] dark:hover:text-[#D6FF4D] px-3 py-1.5 rounded-md transition-colors"
-                    >
-                      <Code2 className="w-3.5 h-3.5" /> Code
-                    </a>
+                  <div className="mt-5 flex flex-wrap items-center gap-4">
+                    {project.serverGithubUrl ? (
+                      <>
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.15em] uppercase text-[#646059] dark:text-[#8d8a82] border border-black/10 dark:border-white/10 hover:border-[#7A9E00]/50 dark:hover:border-[#D6FF4D]/50 hover:text-[#7A9E00] dark:hover:text-[#D6FF4D] px-3 py-1.5 rounded-md transition-colors"
+                        >
+                          <Code2 className="w-3.5 h-3.5" /> Client GitHub
+                        </a>
+                        <a
+                          href={project.serverGithubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.15em] uppercase text-[#646059] dark:text-[#8d8a82] border border-black/10 dark:border-white/10 hover:border-[#7A9E00]/50 dark:hover:border-[#D6FF4D]/50 hover:text-[#7A9E00] dark:hover:text-[#D6FF4D] px-3 py-1.5 rounded-md transition-colors"
+                        >
+                          <Code2 className="w-3.5 h-3.5" /> Server GitHub
+                        </a>
+                      </>
+                    ) : (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.15em] uppercase text-[#646059] dark:text-[#8d8a82] border border-black/10 dark:border-white/10 hover:border-[#7A9E00]/50 dark:hover:border-[#D6FF4D]/50 hover:text-[#7A9E00] dark:hover:text-[#D6FF4D] px-3 py-1.5 rounded-md transition-colors"
+                      >
+                        <Code2 className="w-3.5 h-3.5" /> Code
+                      </a>
+                    )}
                     <a
                       href={project.liveUrl}
                       target="_blank"
