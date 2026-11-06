@@ -13,6 +13,16 @@ export const projectsData: Project[] = [
   {
     id: "01",
     year: "2026",
+    title: "UnityCare – Volunteer Platform",
+    description: "A full-stack volunteering platform connecting volunteers with local community events and initiatives.",
+    tags: ["NEXT.JS", "TYPESCRIPT", "NODE.JS", "MONGODB", "TAILWIND CSS"],
+    image: "/projects/unitycare.png",
+    githubUrl: "https://github.com/NurulAlam0/UnityCare-Client",
+    liveUrl: "https://unity-care-client.vercel.app/"
+  },
+  {
+    id: "02",
+    year: "2026",
     title: "FitLog – Workout Tracker",
     description: "A modern fitness app to plan workouts, track sets, and monitor progress.",
     tags: ["NEXT.JS", "TYPESCRIPT", "TAILWIND CSS"],
@@ -21,7 +31,7 @@ export const projectsData: Project[] = [
     liveUrl: "https://fitlog-app-livid.vercel.app/"
   },
   {
-    id: "02",
+    id: "03",
     year: "2026",
     title: "Bazar Dor – Daily Market Price",
     description: "A Bangla marketplace app for checking daily prices of essential products.",
@@ -31,7 +41,7 @@ export const projectsData: Project[] = [
     liveUrl: "https://bazar-dor-ruby.vercel.app/"
   },
   {
-    id: "03",
+    id: "04",
     year: "2026",
     title: "Bangla News 24 – News Portal",
     description: "A modern Bangla news portal for browsing trending and latest news.",
@@ -41,7 +51,7 @@ export const projectsData: Project[] = [
     liveUrl: "https://bangla-news-main.vercel.app/"
   },
   {
-    id: "04",
+    id: "05",
     year: "2026",
     title: "DevStack – Technology Stack Builder",
     description: "A web app for exploring, comparing, and building custom technology stacks.",
