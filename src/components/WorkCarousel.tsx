@@ -184,14 +184,35 @@ export const WorkCarousel: React.FC = () => {
                   </div>
 
                   <div className="mt-auto pt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] uppercase text-[#7A9E00] dark:text-[#D6FF4D]"
-                    >
-                      <Code2 className="w-3.5 h-3.5" /> Code
-                    </a>
+                    {project.serverGithubUrl ? (
+                      <>
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] uppercase text-[#7A9E00] dark:text-[#D6FF4D]"
+                        >
+                          <Code2 className="w-3.5 h-3.5" /> Client GitHub
+                        </a>
+                        <a
+                          href={project.serverGithubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] uppercase text-[#7A9E00] dark:text-[#D6FF4D]"
+                        >
+                          <Code2 className="w-3.5 h-3.5" /> Server GitHub
+                        </a>
+                      </>
+                    ) : (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] uppercase text-[#7A9E00] dark:text-[#D6FF4D]"
+                      >
+                        <Code2 className="w-3.5 h-3.5" /> Code
+                      </a>
+                    )}
                     <a
                       href={project.liveUrl}
                       target="_blank"
