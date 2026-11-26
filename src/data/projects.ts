@@ -14,6 +14,17 @@ export const projectsData: Project[] = [
   {
     id: "01",
     year: "2026",
+    title: "EquipRent – Full-Stack Equipment Rental Platform",
+    description: "A full-stack equipment rental marketplace to browse, book, and manage rental equipment with role-based dashboards and Stripe checkout.",
+    tags: ["NEXT.JS", "TYPESCRIPT", "NODE.JS", "MONGODB", "TAILWIND CSS"],
+    image: "/projects/equiprent.png",
+    githubUrl: "https://github.com/NurulAlam0/EqupRent-Client",
+    serverGithubUrl: "https://github.com/NurulAlam0/EquipRent-Server",
+    liveUrl: "https://equp-rent-client.vercel.app/"
+  },
+  {
+    id: "02",
+    year: "2026",
     title: "UnityCare – Volunteer Platform",
     description: "A full-stack volunteering platform connecting volunteers with local community events and initiatives.",
     tags: ["NEXT.JS", "TYPESCRIPT", "NODE.JS", "MONGODB", "TAILWIND CSS"],
@@ -23,7 +34,7 @@ export const projectsData: Project[] = [
     liveUrl: "https://unity-care-client.vercel.app/"
   },
   {
-    id: "02",
+    id: "03",
     year: "2026",
     title: "FitLog – Workout Tracker",
     description: "A modern fitness app to plan workouts, track sets, and monitor progress.",
@@ -33,7 +44,7 @@ export const projectsData: Project[] = [
     liveUrl: "https://fitlog-app-livid.vercel.app/"
   },
   {
-    id: "03",
+    id: "04",
     year: "2026",
     title: "Bazar Dor – Daily Market Price",
     description: "A Bangla marketplace app for checking daily prices of essential products.",
@@ -43,7 +54,7 @@ export const projectsData: Project[] = [
     liveUrl: "https://bazar-dor-ruby.vercel.app/"
   },
   {
-    id: "04",
+    id: "05",
     year: "2026",
     title: "Bangla News 24 – News Portal",
     description: "A modern Bangla news portal for browsing trending and latest news.",
@@ -53,7 +64,7 @@ export const projectsData: Project[] = [
     liveUrl: "https://bangla-news-main.vercel.app/"
   },
   {
-    id: "05",
+    id: "06",
     year: "2026",
     title: "DevStack – Technology Stack Builder",
     description: "A web app for exploring, comparing, and building custom technology stacks.",
